@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	background: #aaa;
+}
+#main {
+	margin: auto;
+	margin-top: 2vh;
+	width: max-content;
+	background: #000;
+	border: 2px solid #000;
+	display: grid;
+	grid-template-columns: repeat(7, 13vw);
+	grid-gap: 2px;
+}
+
+#main > div {
+	background: #eee;
+	height: 13vw;
+}
+.red {
+	background: #c99 !important;
+}
